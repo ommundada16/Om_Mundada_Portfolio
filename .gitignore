@@ -1,7 +1,7 @@
-# Large media files - add to Git LFS or host separately
-*.mp4
-*.mov
-*.avi
+# Raw screen recordings at repo root (not used by the site)
+/*.mp4
+/*.mov
+/*.avi
 
 # OS files
 .DS_Store
