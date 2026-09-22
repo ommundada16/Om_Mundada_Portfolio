@@ -1,6 +1,6 @@
 # Om Mundada – AR/VR & Game Developer Portfolio
 
-> **Live Portfolio:** [https://ommundada16.github.io/ar-vr-portfolio](https://ommundada16.github.io/ar-vr-portfolio)
+> **Live Portfolio:** [https://ommundada16.github.io/Om_Mundada_Portfolio](https://ommundada16.github.io/Om_Mundada_Portfolio/)
 
 A premium, dark-mode portfolio website built for **Electronic Arts (EA)** and game industry applications. Showcasing AR/VR development expertise, Unity projects, and immersive experience engineering.
 
@@ -17,6 +17,19 @@ A premium, dark-mode portfolio website built for **Electronic Arts (EA)** and ga
 ---
 
 ## 🚀 Featured Projects
+
+### Software & AI Projects
+
+| Project | Tech | Description |
+|---------|------|-------------|
+| [**Travel Supplier Aggregator**](https://github.com/ommundada16/prodt_task) | Python, FastAPI, Temporal, Docker | Unified hotel-search API with concurrent supplier queries, offer normalization and ranking, and Temporal booking workflows |
+| [**E-Commerce REST API (Spring Boot)**](https://github.com/ommundada16/ecom_springboot) | Java, Spring Boot, JPA, React | Full-stack product catalog with CRUD, image upload, search, cart and checkout |
+| [**The Auditor – AI Document Checker**](https://github.com/ommundada16/ai_compliance_checker_ethosh-ignite-) | Python, Ollama, LLM | Audits medical device reports against EU MDR clauses, highlights gaps by severity, and scores readiness |
+| [**EcoCycle**](https://github.com/ommundada16/plastic_waste_web) | React, Node.js, MongoDB, Tailwind | Plastic-waste pickup scheduling with reward coins and an eco-product marketplace |
+| [**Financial News RAG Agent**](https://github.com/ommundada16/Financial_news_daily_digest) | n8n, pgvector, Ollama, Groq | RAG pipeline that grounds LLM sentiment analysis in market data and sends daily Telegram digests |
+| [**Mini-IAM (RBAC)**](https://github.com/ommundada16/role_based_access_control_system) | Python, Flask, JWT, SQLite | Role-based access control with audit logging, brute-force lockout, and identity lifecycle |
+
+### AR/VR & Game Development
 
 | Project | Tech | Description |
 |---------|------|-------------|

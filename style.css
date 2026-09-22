@@ -932,6 +932,30 @@ em { color: var(--secondary); font-style: italic; }
 }
 .fp-highlights li svg { color: var(--accent); flex-shrink: 0; }
 
+/* ─── PROJECT GROUP SUBHEADINGS ─── */
+.projects-subheading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 24px;
+}
+.projects-subheading::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.psh-index {
+  font-family: var(--font-mono);
+  color: var(--primary);
+}
+.tech-projects { margin-bottom: 64px; }
+.projects-grid.projects-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.project-card .pc-icon.pc-icon-padded { margin-left: 28px; }
+
 /* ─── PROJECTS GRID ─── */
 .projects-grid {
   display: grid;
@@ -1408,7 +1432,7 @@ em { color: var(--secondary); font-style: italic; }
   .about-grid { grid-template-columns: 1fr; }
   .featured-project { grid-template-columns: 1fr; }
   .fp-media { min-height: 220px; max-height: 300px; }
-  .projects-grid { grid-template-columns: 1fr 1fr; }
+  .projects-grid, .projects-grid.projects-grid-3 { grid-template-columns: 1fr 1fr; }
   .achievements-grid { grid-template-columns: 1fr 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
   .skills-layout { grid-template-columns: 1fr; }
@@ -1420,7 +1444,7 @@ em { color: var(--secondary); font-style: italic; }
   .nav-links.open { display: flex; }
   .nav-link { font-size: 1.2rem; }
   .nav-toggle { display: flex; z-index: 1000; }
-  .projects-grid { grid-template-columns: 1fr; }
+  .projects-grid, .projects-grid.projects-grid-3 { grid-template-columns: 1fr; }
   .achievements-grid { grid-template-columns: 1fr; }
   .timeline { padding-left: 44px; }
   .tcard-header { flex-direction: column; }
