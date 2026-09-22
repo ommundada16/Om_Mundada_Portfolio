@@ -293,7 +293,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-console.log('%c👾 Om Mundada | AR/VR Portfolio', 'color: #a78bfa; font-size: 16px; font-weight: bold;');
+console.log('%c👾 Om Mundada | Portfolio', 'color: #a78bfa; font-size: 16px; font-weight: bold;');
 console.log('%cBuilt with Unity, ARCore & passion for immersive experiences 🚀', 'color: #38bdf8;');
 
 // ── HERO SLIDER ──

@@ -1351,10 +1351,8 @@ em { color: var(--secondary); font-style: italic; }
 
 /* ─── CONTACT ─── */
 .contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: start;
+  max-width: 640px;
+  margin: 0 auto;
 }
 .contact-info {
   display: flex;
