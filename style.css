@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════
-   OM MUNDADA – AR/VR PORTFOLIO  |  style.css
-   Premium dark-mode game dev portfolio
+   OM MUNDADA – PORTFOLIO  |  style.css
+   Premium dark-mode developer portfolio
 ══════════════════════════════════════════════════════ */
 
 /* ── DESIGN TOKENS ── */
@@ -430,6 +430,100 @@ em { color: var(--secondary); font-style: italic; }
   justify-content: center;
   align-items: center;
   animation: fadeInRight 1s ease 0.4s both;
+}
+
+/* ─── HERO 3D VISUAL ─── */
+.hero-3d-visual {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 1;
+  border-radius: 24px;
+  background: radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.14), transparent 65%);
+  overflow: hidden;
+}
+.hv-grid { position: absolute; inset: 0; }
+.hv-grid-line { position: absolute; background: rgba(167, 139, 250, 0.08); }
+.hv-gl-h { left: 0; right: 0; height: 1px; }
+.hv-gl-v { top: 0; bottom: 0; width: 1px; }
+.hv-orb {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 150px; height: 150px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hv-orb-inner {
+  position: relative;
+  z-index: 2;
+  width: 110px; height: 110px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.35), rgba(8, 12, 20, 0.9) 70%);
+  border: 1px solid var(--border-glow);
+  box-shadow: 0 0 60px rgba(124, 58, 237, 0.35);
+}
+.hv-icon { animation: hvFloat 4s ease-in-out infinite; }
+.hv-orb-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(167, 139, 250, 0.3);
+}
+.hv-orb-ring.r1 { inset: -10px; animation: hvSpin 18s linear infinite; }
+.hv-orb-ring.r2 { inset: -44px; border-color: rgba(56, 189, 248, 0.2); animation: hvSpin 28s linear infinite reverse; }
+.hv-orb-ping {
+  position: absolute;
+  inset: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(167, 139, 250, 0.5);
+  animation: hvPing 3s ease-out infinite;
+}
+.hv-chip {
+  position: absolute;
+  z-index: 3;
+  padding: 6px 14px;
+  border-radius: 100px;
+  background: rgba(8, 12, 20, 0.75);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+  backdrop-filter: blur(6px);
+  animation: hvFloat 5s ease-in-out infinite;
+}
+.hv-chip-1 { top: 12%; left: 8%; }
+.hv-chip-2 { top: 18%; right: 7%; color: var(--accent); border-color: rgba(52, 211, 153, 0.3); animation-delay: -1s; }
+.hv-chip-3 { bottom: 22%; left: 6%; color: var(--secondary); border-color: rgba(56, 189, 248, 0.3); animation-delay: -2s; }
+.hv-chip-4 { bottom: 12%; right: 10%; color: var(--pink); border-color: rgba(244, 114, 182, 0.3); animation-delay: -3s; }
+.hv-chip-5 { top: 50%; right: 3%; color: var(--warn); border-color: rgba(251, 146, 60, 0.3); animation-delay: -4s; }
+.hv-bracket {
+  position: absolute;
+  width: 28px; height: 28px;
+  border: 2px solid rgba(167, 139, 250, 0.5);
+}
+.hv-br-tl { top: 14px; left: 14px; border-right: none; border-bottom: none; }
+.hv-br-tr { top: 14px; right: 14px; border-left: none; border-bottom: none; }
+.hv-br-bl { bottom: 14px; left: 14px; border-right: none; border-top: none; }
+.hv-br-br { bottom: 14px; right: 14px; border-left: none; border-top: none; }
+.hv-scan {
+  position: absolute;
+  left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.6), transparent);
+  animation: hvScan 4s linear infinite;
+}
+@keyframes hvSpin { to { transform: rotate(360deg); } }
+@keyframes hvFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes hvPing { 0% { transform: scale(1); opacity: 0.8; } 100% { transform: scale(1.9); opacity: 0; } }
+@keyframes hvScan { 0% { top: 0; } 100% { top: 100%; } }
+@media (prefers-reduced-motion: reduce) {
+  .hv-icon, .hv-orb-ring, .hv-orb-ping, .hv-chip, .hv-scan { animation: none; }
 }
 .hero-slider-wrap {
   position: relative;

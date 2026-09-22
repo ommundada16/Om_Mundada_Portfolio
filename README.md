@@ -1,15 +1,17 @@
-# Om Mundada – AR/VR & Game Developer Portfolio
+# Om Mundada – Software Engineer Portfolio (AI · Full-Stack · AR/VR)
 
 > **Live Portfolio:** [https://ommundada16.github.io/Om_Mundada_Portfolio](https://ommundada16.github.io/Om_Mundada_Portfolio/)
 
-A premium, dark-mode portfolio website built for **Electronic Arts (EA)** and game industry applications. Showcasing AR/VR development expertise, Unity projects, and immersive experience engineering.
+A dark-mode portfolio website showcasing backend systems, AI/RAG applications, full-stack web apps, and AR/VR & Unity projects.
 
 ---
 
-## 🎮 About
+## 👋 About
 
 **Om Mundada** | B.Tech Computer Engineering, PCCOE Pune | Class of 2027
 
+- **Software Engineer** – Python, Java, FastAPI, Spring Boot, React, Node.js
+- **AI Developer** – LLM integration, RAG pipelines, local LLMs (Ollama), n8n automation
 - **AR/VR Developer** – Unity 3D, ARCore, Vuforia, AR Foundation
 - **Google Student Ambassador** – Gemini AI Campus Leadership Program
 - **SGPA:** 8.9/10
@@ -52,8 +54,11 @@ A premium, dark-mode portfolio website built for **Electronic Arts (EA)** and ga
 ## 🛠️ Tech Stack
 
 ```
+Languages: Python · Java · C# · JavaScript · C++ · SQL
+Backend:   FastAPI · Flask · Spring Boot · Node.js/Express · Temporal · Docker
+Frontend:  React · Vite · Tailwind CSS · Bootstrap
+AI & Data: LLMs · RAG · Ollama · Groq · n8n · PostgreSQL + pgvector · MongoDB · SQLite
 Game Dev:  Unity 3D · Google ARCore SDK · AR Foundation · Vuforia · Android Studio
-Languages: C# · C++ · Python · JavaScript  
 Design:    Figma · Canva · Adobe Premiere Pro · DaVinci Resolve
 Core:      DSA · OOPs · SDLC · Git/GitHub
 ```
@@ -63,15 +68,13 @@ Core:      DSA · OOPs · SDLC · Git/GitHub
 ## 📁 Project Structure
 
 ```
-ar-vr-portfolio/
+Om_Mundada_Portfolio/
 ├── index.html          # Main portfolio page
 ├── style.css           # Premium dark-mode CSS
 ├── script.js           # Particle system, animations, interactions
 ├── assets/
-│   └── images/
-│       ├── hero_banner.png          # AI-generated hero background
-│       ├── ar_furniture_screenshot.png   # Live AR demo screenshot
-│       └── card_bg.png              # Section background
+│   ├── images/          # Hero background, AR screenshots, Tirtha photos
+│   └── videos/          # AR/VR and game demo videos
 └── README.md
 ```
 
@@ -79,10 +82,7 @@ ar-vr-portfolio/
 
 ## 🌐 Deploying to GitHub Pages
 
-1. Create a new GitHub repository named `ar-vr-portfolio`
-2. Push all files to the `main` branch
-3. Go to **Settings → Pages → Source: Deploy from branch (main / root)**
-4. Your site will be live at: `https://ommundada16.github.io/ar-vr-portfolio`
+The site is served by GitHub Pages from the `main` branch (root). Pushing to `main` redeploys it to `https://ommundada16.github.io/Om_Mundada_Portfolio/`.
 
 ---
 
@@ -95,4 +95,4 @@ ar-vr-portfolio/
 
 ---
 
-*Built with HTML, CSS & Vanilla JavaScript · Designed for EA 2027 batch applications*
+*Built with HTML, CSS & Vanilla JavaScript*

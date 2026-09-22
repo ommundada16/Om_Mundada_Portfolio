@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════
-   OM MUNDADA – AR/VR PORTFOLIO  |  script.js
+   OM MUNDADA – PORTFOLIO  |  script.js
    Interactive animations and particle effects
 ══════════════════════════════════════════════════════ */
 
@@ -69,11 +69,11 @@ navLinks.querySelectorAll('.nav-link').forEach(link => {
 
 // ── TYPEWRITER EFFECT ──
 const roles = [
+  'Scalable Backends ⚙️',
+  'AI Agents & RAG 🤖',
+  'Full-Stack Apps 🛒',
   'AR Experiences 📱',
-  'Unity Games 🎮',
-  'XR Prototypes 🥽',
-  'Immersive Worlds 🌐',
-  'the Future of Reality ✨'
+  'Unity Games 🎮'
 ];
 let roleIndex = 0;
 let charIndex  = 0;
